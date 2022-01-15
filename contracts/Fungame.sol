@@ -152,6 +152,8 @@ contract FunGame is ERC721 {
         } else {
             player.hp = player.hp - bigBoss.attackDamage;
         }
-        
+
+        console.log("Player attacked boss. New boss hp: %s", bigBoss.hp);
+        console.log("Boss attacked player. New player hp: %s\n", player.hp);
     }
 }

@@ -130,5 +130,15 @@ contract FunGame is ERC721 {
         CharacterAttributes storage player = nftHolderAttributes[nftTokenIdOfPlayer];
         console.log("\nPlayer w/ character %s about to attack. Has %s HP and %s AD", player.name, player.hp, player.attackDamage);
         console.log("Boss %s has %s HP and %s AD", bigBoss.name, bigBoss.hp, bigBoss.attackDamage);
+
+        require (
+            player.hp > 0,
+            "Error: character must have HP to attack boss."
+        );
+
+        require (
+            bigBoss.hp > 0,
+            "Error: boss must have HP to attack boss."
+        );
     }
 }

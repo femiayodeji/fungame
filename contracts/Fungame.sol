@@ -124,4 +124,7 @@ contract FunGame is ERC721 {
         );
         return output;
     }
+
+    function attackBoss() public {
+    }
 }

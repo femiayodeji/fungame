@@ -11,7 +11,7 @@ const main = async () => {
         ],
         [100, 200, 300],
         [100, 50, 25],
-        "Elon Musk",
+        "Kotal kahn",
         "https://i.pinimg.com/originals/e4/16/ee/e416ee066fcd01f5927ea408b8f58759.png",
         10000,
         50

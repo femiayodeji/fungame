@@ -146,5 +146,12 @@ contract FunGame is ERC721 {
         } else {
             bigBoss.hp = bigBoss.hp - player.attackDamage;
         }
+
+        if (player.hp < bigBoss.attackDamage) {
+            player.hp = 0;
+        } else {
+            player.hp = player.hp - bigBoss.attackDamage;
+        }
+        
     }
 }

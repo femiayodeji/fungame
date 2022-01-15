@@ -2,12 +2,12 @@ const main = async () => {
     const gameContractFactory = await hre.ethers.getContractFactory('FunGame');
     const gameContract = await gameContractFactory.deploy(
         [
-            "Skully", "Subzero", "Scorpion"
+            "Subzero", "Scorpion", "Noob Saibot"
         ],
         [
-            "https://dlpng.com/png/1670173", 
-            "https://dlpng.com/png/6893905",
-            "https://www.pngall.com/?p=77369"
+            "https://www.pngall.com/wp-content/uploads/9/Mortal-Kombat-Game-Transparent.png",
+            "https://www.pngall.com/wp-content/uploads/9/Mortal-Kombat-Characters-PNG-Free-Download.png",
+            "https://pngimage.net/wp-content/uploads/2018/06/noob-saibot-png-7.png" 
         ],
         [100, 200, 300],
         [100, 50, 25]

@@ -156,4 +156,16 @@ contract FunGame is ERC721 {
         console.log("Player attacked boss. New boss hp: %s", bigBoss.hp);
         console.log("Boss attacked player. New player hp: %s\n", player.hp);
     }
+
+    function checkIfUserHasNFT() public view returns (CharacterAttributes memory) {
+        uint256 userNftTokenId = nftHolders[msg.sender];
+        if (userNftTokenId > 0) {
+            return nftHolderAttributes[userNftTokenId];
+        }
+        else {
+            CharacterAttributes memory emptyStruct;
+            return emptyStruct;
+        }
+    }
+
 }

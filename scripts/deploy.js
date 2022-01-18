@@ -5,14 +5,14 @@ const main = async () => {
             "Subzero", "Scorpion", "Noob Saibot"
         ],
         [
-            "https://www.pngall.com/wp-content/uploads/9/Mortal-Kombat-Game-Transparent.png",
-            "https://www.pngall.com/wp-content/uploads/9/Mortal-Kombat-Characters-PNG-Free-Download.png",
-            "https://pngimage.net/wp-content/uploads/2018/06/noob-saibot-png-7.png" 
+            "QmR6LZmUNuq7jEviT6CL19TviDS4WhKwZir6hcWqs2fPSF",
+            "Qmc5MPBW7U7sAuwJWm5R4okeeVbf9L9d645SHCiFgPPaHm",
+            "QmaRi8HijCCWUU3CPGkK3TPaMBtyGY1XY6BJEwt3F9Sy46" 
         ],
         [100, 200, 300],
         [100, 50, 25],
         "Kotal kahn",
-        "https://i.pinimg.com/originals/e4/16/ee/e416ee066fcd01f5927ea408b8f58759.png",
+        "QmcDPYzWVqUfFtu2FFKdVXNjyMmRfuKdu3SQNEgsnZuwPT",
         10000,
         50
     );
@@ -31,4 +31,4 @@ const runMain = async () => {
 };
 
 runMain();
-// 0x3032862162737C5120c905173563ac5076E748A9
+// 0xbBb02C036ab12445c03B5ec965915bD03e62E3E8
